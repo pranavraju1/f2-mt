@@ -1,0 +1,92 @@
+body{
+    padding-left: 88px;
+    padding-right: 88px;
+}
+.home{
+    color: #509E2F !important;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.Explore{
+    color: var(--Black, #253D4E) !important;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.navi{
+    position: sticky !important;
+    background-color: white;
+}
+.hero{
+    height: 355px;
+    width: 100%;
+}
+#allrec{
+    background-color: #EAAA00;
+    color: white;
+}
+#veg{
+    background-color: #C4D600;
+    color: white;
+}
+#non{
+    background-color: #DC582A;
+    color: white;
+}
+
+.main{
+    display: flex;
+    flex: row;
+    height: 800px;
+    margin-top: 20px;
+    width:100% ;
+}
+.left{
+    /* background-color: pink; */
+    flex-grow: 1;
+}
+.right{
+    /* background-color: lightblue; */
+    flex-grow:15;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.asd{
+    height:315px;
+    width: 305px;
+    outline: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.asd img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+.disc>p,.discc{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.inp{
+    width: 94%;
+    margin-bottom: 10px;
+}
+.sub{
+    background-color: #509E2F;
+    color: white;
+}
